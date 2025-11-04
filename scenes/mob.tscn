@@ -89,5 +89,6 @@ aabb = AABB(-1.2226524, -1, -2.001924, 2.4453049, 2, 4.003848)
 libraries = {
 &"": SubResource("AnimationLibrary_71rcx")
 }
+autoplay = "float"
 
 [connection signal="screen_exited" from="VisibleNotifier" to="." method="_on_visible_notifier_screen_exited"]
