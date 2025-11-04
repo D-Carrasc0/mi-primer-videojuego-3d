@@ -80,7 +80,7 @@ shape = SubResource("BoxShape3D_sgp6g")
 mesh = SubResource("BoxMesh_o5qli")
 
 [node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.22325683, 9.976091, 1.9481605)
+transform = Transform3D(-0.99983525, -0.004734382, -0.017530799, -0.017512977, -0.003804638, 0.9998393, -0.0048003173, 0.99998164, 0.003721095, -0.2210264, 21.462679, -0.2139551)
 shadow_enabled = true
 
 [node name="MobTimer" type="Timer" parent="."]
@@ -112,7 +112,7 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-color = Color(0, 0, 0, 0)
+color = Color(0, 0, 0, 0.3764706)
 
 [node name="Label" type="Label" parent="UserInterface/Retry"]
 layout_mode = 1
